@@ -1,0 +1,108 @@
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    top: 10rem;
+    width: 40rem;
+    background-color: #54e399;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.heading{
+    top: 1rem;
+    color: #3866f2;
+    font-size: 18px;
+}
+
+.alert{
+    position: absolute;
+    width: 20rem;
+    margin-left: 10rem;
+    margin-top: 0.5rem;
+    background-color: aqua;
+}
+
+
+.each_item{
+    margin-left: 10rem;
+    color: #eb4294;
+}
+
+.submit_btn{
+    background-color: #f23581;
+    color: white;
+    border: none;
+    padding: 0.2rem;
+}
+
+.inpt{
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+.total{
+    margin-top: 0.5rem;
+    background-color: white;
+    width: 20rem;
+    height: 2rem;
+    position: relative;
+    padding-top: 0.4rem;
+}
+
+.title{
+    display: flex;
+}
+
+.empty{
+    border-color: red;
+}
+
+.empty::placeholder{
+    color: red;
+}
+
+.btns{
+    position: absolute;
+    margin-left: 16rem;
+    margin-top: 0.3rem;
+}
+
+.btn-edit{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: blue;
+}
+
+
+.btn-del{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: red;
+}
+
+.clear{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.clear-all{
+    background-color: white;
+    color: #ed375b;
+    border: none;
+    padding: 0.2rem 3rem;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
